@@ -1,0 +1,73 @@
+# Impressum
+Gottfried Wilhelm Leibniz Universität Hannover<br />
+Welfengarten 1<br />
+30167 Hannover<br />
+Tel. +49 511 762 - 0<br />
+Fax +49 511 762 - 3456<br /><br />
+
+Vertreten durch:<br />
+<a href="https://www.uni-hannover.de/de/universitaet/praesidium/praesident/">Präsident der Leibniz Universität Hannover</a><br /><br />
+
+Web-Redaktion:<br />
+Arne Meier<br />
+meier (AT) thi (DOT) uni (MINUS) hannover (DOT) de<br /><br />
+
+TYPO3-Betrieb und Systemadministration:<br />
+Leibniz Universität IT Services<br />
+Leibniz Universität Hannover<br />
+typo3@luis.uni-hannover.de<br /><br />
+
+Corporate Webdesign:<br />
+Referat für Kommunikation und Marketing<br />
+Leibniz Universität Hannover<br />
+webredaktion@zuv.uni-hannover.de<br /><br />
+
+Die Gottfried Wilhelm Leibniz Universität Hannover ist eine Körperschaft des öffentlichen Rechts. Sie wird durch den Präsidenten Prof. Dr. iur. Volker Epping gesetzlich vertreten.<br /><br />
+
+Zuständige Aufsichtsbehörde:<br />
+Stiftung Gottfried Wilhelm Leibniz Universität Hannover, Welfengarten 1, 30167 Hannover.<br /><br />
+
+Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br />
+DE 811 245 527<br /><br />
+
+Die inhaltlich verantwortlichen Personen einzelner journalistisch-redaktioneller Texte gemäß § 5 TMG sind unter dem jeweiligen Beitrag auf der Seite selbst genannt. Für alle anderen Inhalte ist die o. g. Redaktion verantwortlich.<br /><br />
+
+Bitte beachten Sie auch unseren <a href="https://www.uni-hannover.de/de/haftungsausschluss/">Haftungsausschluss</a> sowie unsere <a href="https://www.uni-hannover.de/de/datenschutzerklaerung/">Datenschutzerklärung</a>.
+
+# Legal Information
+Gottfried Wilhelm Leibniz Universität Hannover<br />
+Welfengarten 1<br />
+D-30167 Hannover<br />
+Tel. +49 511 762 - 0<br />
+Fax +49 511 762 - 3456<br /><br />
+
+Represented by:<br />
+<a href="https://www.uni-hannover.de/en/universitaet/presidential-board/praesident/">President</a><br />
+Leibniz Universität Hannover<br /><br />
+
+Web Editor:<br />
+Arne Meier<br />
+meier (AT) thi (DOT) uni (MINUS) hannover (DOT) de<br /><br />
+
+TYPO3 Web Service and System Administration:<br />
+Leibniz Universität IT Services<br />
+Leibniz Universität Hannover<br />
+typo3@luis.uni-hannover.de<br /><br />
+
+Corporate Webdesign:<br />
+Referat für Kommunikation und Marketing<br />
+(Communications and Marketing)<br />
+Leibniz Universität Hannover<br />
+webredaktion@zuv.uni-hannover.de<br /><br />
+
+The Gottfried Wilhelm Leibniz Universität Hannover is a corporation under public law. It is legally represented by the President, Prof. Dr. iur. Volker Epping.<br /><br />
+
+Supervisory authority:<br />
+Gottfried Wilhelm Leibniz Universität Hannover, Public Law Foundation, Welfengarten 1, D-30167 Hannover.<br />
+
+Sales tax identification number in accordance with § 27a Sales Tax Law:<br />
+DE 811 245 527<br /><br />
+
+The names of those responsible for the content in accordance with § 5 TMG can be found in the footnotes at the bottom of the respective page. The Web Editor ist responsible for all the rest of the content.<br />
+
+Please note our <a href="https://www.uni-hannover.de/en/haftungsausschluss/">Disclaimer</a> and our <a href="https://www.uni-hannover.de/en/datenschutzerklaerung">Data Privacy Policy</a>.
