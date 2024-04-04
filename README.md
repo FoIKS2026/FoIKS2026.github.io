@@ -7,6 +7,5 @@ Leibniz University Hannover, Germany
 
 *Contact*: foiks26 (AT) thi (DOT) uni (MINUS) hannover (DOT) de
 
-
-[![Logo Leibniz Universität Hannover](https://www.uni-hannover.de/typo3conf/ext/luh_website/Resources/Public/Images/Logo/luh_logo.svg "Zur zentralen
-Website der Leibniz Universität Hannover")](https://www.uni-hannover.de)
+<a href="https://www.uni-hannover.de"><img src="https://www.uni-hannover.de/typo3conf/ext/luh_website/Resources/Public/Images/Logo/luh_logo.svg" alt="Zur zentralen
+Website der Leibniz Universität Hannover" width="200"/></a>
