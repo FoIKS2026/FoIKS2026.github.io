@@ -9,3 +9,5 @@ Leibniz University Hannover, Germany
 
 <a href="https://www.uni-hannover.de"><img src="https://www.uni-hannover.de/typo3conf/ext/luh_website/Resources/Public/Images/Logo/luh_logo.svg" alt="Zur zentralen
 Website der Leibniz Universität Hannover" width="200"/></a>
+
+<a href="impressum.md">Impressum -- Legal Information</a>
