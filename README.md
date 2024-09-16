@@ -1,6 +1,6 @@
 ## 14th International Symposium on Foundations of Information and Knowledge Systems
 
-23.03.2026 – 26.03.2026
+23.03.2026 – 26.03.2026 @ <a href="https://www.uni-hannover.de/en/universitaet/organisation/dezernate/technik/kfm-gebaeude/leibnizhaus">Leibnizhaus</a>.
 
 Leibniz University Hannover, Germany
 
