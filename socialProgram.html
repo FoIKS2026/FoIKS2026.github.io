@@ -1,6 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 10px;
+            left: 12px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+        }
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
@@ -75,7 +97,10 @@
       <font size = "3" face = "IBM Plex Serif" style="font-style:regular;"><center>14th International Symposium on Foundations of Information and Knowledge Systems</center></font>
       <font size = "3" face = "IBM Plex Serif" style="font-style:regular;"><center> March 23 &minus; 26 &#8226; Hanover, Germany</center></font>
       <hr>
-      <img class="img-fluid rounded mx-auto" src="images/LUH-castle.jpg" alt="Picture" style="padding-bottom: 10px;">
+      <div class="image-container">
+		    <img src="images/LUH-castle2.jpg" alt="Picture" style="padding-bottom: 10px;">
+        <div class="overlay-text">© Daniel Vogl</div>
+      </div>
     </div>
         </div>
 
