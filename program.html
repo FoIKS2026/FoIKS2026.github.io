@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <style>
         .image-container {
             position: relative;
@@ -31,147 +32,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <title>FoIKS 2026</title>
     <link href="jvstyle.css" type="text/css" rel="stylesheet">
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+    <style>
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
 
-.collapsible:hover {
-  background-color: #606060;
-}
+        .collapsible:hover {
+            background-color: #606060;
+        }
 
-.talkContent {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
+        .talkContent {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
 
-.collapsible2 {
-  background-color: #197700;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+        .collapsible2 {
+            background-color: #197700;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
 
-.collapsible3 {
-  background-color: #197700;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+        .collapsible3 {
+            background-color: #197700;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
 
-.collapsible2:hover {
-  background-color: #145800;
-}
+        .collapsible2:hover {
+            background-color: #145800;
+        }
 
-.talkContent2 {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
+        .talkContent2 {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
 
-</style>
-  </head>
-  <body style="font-family: IBM Plex Serif">
+<body style="font-family: IBM Plex Serif">
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">FoIKS 2026</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="organisation.html">Organisation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cfp.html">Call for Papers</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="cfposters.html">Call for Posters</a>
-              </li>
-<!--
+            <a class="navbar-brand" href="index.html">FoIKS 2026</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="organisation.html">Organisation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cfp.html">Call for Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cfposters.html">Call for Posters</a>
+                    </li>
+                    <!--
               <li class="nav-item">
                 <a class="nav-link" href="registration.html">Registration</a>
               </li>
 -->
-              <li class="nav-item">
-                <a class="nav-link" href="venue.html" >Venue</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="program.html" >Program</a>
-              </li>
-<!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="venue.html">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="program.html">Program</a>
+                    </li>
+                    <!--
               <li class="nav-item">
                 <a class="nav-link" href="socialProgram.html" >Social Program</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="panelDiscussion.html" >Special Event on AI</a>
               </li>
--->            
-              <li class="nav-item">
-                <a class="nav-link" href="impressum.html" >Impressum</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <img src="images/luh_logo_rgb_0_80_155.png" id=logo alt="LUH logo" height="75"/>
-              </li>
-              <li class="nav-item">
-                <img src="images/thi-logo.png" id=logo alt="THI logo" height="75"/>
-              </li>
-            </ul>
-          </div>
+-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="impressum.html">Impressum</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <img src="images/luh_logo_rgb_0_80_155.png" id=logo alt="LUH logo" height="75" />
+                    </li>
+                    <li class="nav-item">
+                        <img src="images/thi-logo.png" id=logo alt="THI logo" height="75" />
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-      <div class="container">
-	      <div class="row into-row justify-content-center"> <!-- align-items-center">-->
-    <div class="row">
-      <font size = "6" face = "IBM Plex Serif" style="font-style:regular;"><center>FoIKS 2026</center></font>
-      <font size = "3" face = "IBM Plex Serif" style="font-style:regular;"><center>14th International Symposium on Foundations of Information and Knowledge Systems</center></font>
-      <font size = "3" face = "IBM Plex Serif" style="font-style:regular;"><center> March 23 &minus; 26 &#8226; Hanover, Germany</center></font>
-      <hr>
-      <div class="image-container">
-		    <img src="images/LUH-castle2.jpg" alt="Picture" style="padding-bottom: 10px;">
-        <div class="overlay-text">© Daniel Vogl</div>
-      </div>
-    </div>
+    <div class="container">
+        <div class="row into-row justify-content-center"> <!-- align-items-center">-->
+            <div class="row">
+                <font size="6" face="IBM Plex Serif" style="font-style:regular;">
+                    <center>FoIKS 2026</center>
+                </font>
+                <font size="3" face="IBM Plex Serif" style="font-style:regular;">
+                    <center>14th International Symposium on Foundations of Information and Knowledge Systems</center>
+                </font>
+                <font size="3" face="IBM Plex Serif" style="font-style:regular;">
+                    <center> March 23 &minus; 26 &#8226; Hanover, Germany</center>
+                </font>
+                <hr>
+                <div class="image-container">
+                    <img src="images/LUH-castle2.jpg" alt="Picture" style="padding-bottom: 10px;">
+                    <div class="overlay-text">© Daniel Vogl</div>
+                </div>
+            </div>
         </div>
         <div>
             <h3><u>FoIKS 2026 Conference Program</u></h3>
             <ul>
-              TBA
+                TBA
             </ul>
             <!--<p>The program of the conference can be found
             <a href="https://easychair.org/smart-program/FoIKS24/index.html">here</a>
@@ -179,36 +188,48 @@
         </div>
 
         <div class="row research-row justify-content-center align-items-begin">
-          <div class="research-col col-md-7"> 
-            <h3><u>Accepted Long Papers</u></h3>
-            <ul>
-              <li><b>Iosif Apostolakis and Johannes P. Wallner</b> - Simplifying Argumentation Frameworks by Clustering Structural Patterns</li>
+            <div class="research-col col-md-7">
+                <h3><u>Accepted Long Papers</u></h3>
+                <ul>
+                    <li><b>Iosif Apostolakis and Johannes P. Wallner</b> - Simplifying Argumentation Frameworks by
+                        Clustering Structural Patterns</li>
 
-              <li><b>Franz Baader</b> - An Order-Theoretic View on Optimal Repairs and Complete Sets of Unifiers</li>
+                    <li><b>Franz Baader</b> - An Order-Theoretic View on Optimal Repairs and Complete Sets of Unifiers
+                    </li>
 
-              <li><b>Michael Baier and Johannes P. Wallner</b> - Utilizing Binary Decision Diagrams for Compiling Argumentation Frameworks</li>
+                    <li><b>Michael Baier and Johannes P. Wallner</b> - Utilizing Binary Decision Diagrams for Compiling
+                        Argumentation Frameworks</li>
 
-              <li><b>Leopoldo Bertossi and Felipe Azua</b> - Causality-Based Scores Alignment in Explainable Data Management</li>
+                    <li><b>Leopoldo Bertossi and Felipe Azua</b> - Causality-Based Scores Alignment in Explainable Data
+                        Management</li>
 
-              <li><b>Nadia Creignou, Timo Merkl, Reinhard Pichler and Daniel Unterberger</b> - From FPT Decision to FPT Enumeration</li>
+                    <li><b>Nadia Creignou, Timo Merkl, Reinhard Pichler and Daniel Unterberger</b> - From FPT Decision
+                        to FPT Enumeration</li>
 
-              <li><b>Miika Hannula, Minna Hirvonen, Juha Kontinen and Sebastian Link</b> - Independence Under Incomplete Information</li>
+                    <li><b>Miika Hannula, Minna Hirvonen, Juha Kontinen and Sebastian Link</b> - Independence Under
+                        Incomplete Information</li>
 
-              <li><b>Jelle Hellings and Yuchen You</b> - Short and Simple Explanations for Datalog Derivations</li>
+                    <li><b>Jelle Hellings and Yuchen You</b> - Short and Simple Explanations for Datalog Derivations
+                    </li>
 
-              <li><b>Minna Hirvonen</b> - Implication Problems over Positive Semirings</li>
+                    <li><b>Minna Hirvonen</b> - Implication Problems over Positive Semirings</li>
 
-              <li><b>Prosenjit Howlader and Churn-Jung Liau</b> - A Modal Logic for Possibilistic Reasoning with Fuzzy Formal Contexts</li>
+                    <li><b>Prosenjit Howlader and Churn-Jung Liau</b> - A Modal Logic for Possibilistic Reasoning with
+                        Fuzzy Formal Contexts</li>
 
-              <li><b>Tim Wolfgang Helmut Schwabe and Lena Wiese</b> - Extending Similarity Measures for Incomplete Database Instances with Locality-Sensitive Hashing</li>
+                    <li><b>Tim Wolfgang Helmut Schwabe and Lena Wiese</b> - Extending Similarity Measures for Incomplete
+                        Database Instances with Locality-Sensitive Hashing</li>
 
-              <li><b>Lars-Phillip Spiegel, Christoph Beierle, Gabriele Kern-Isberner and Alexander Hahn</b> - Conditional Constraint and Solution Splittings of Belief Bases in the Context of c-Representations</li>
+                    <li><b>Lars-Phillip Spiegel, Christoph Beierle, Gabriele Kern-Isberner and Alexander Hahn</b> -
+                        Conditional Constraint and Solution Splittings of Belief Bases in the Context of
+                        c-Representations</li>
 
-              <li><b>Jan Van den Bussche and Emmanuel Waller</b> - Analyzing the behavior of database applications through size descriptions</li>
+                    <li><b>Jan Van den Bussche and Emmanuel Waller</b> - Analyzing the behavior of database applications
+                        through size descriptions</li>
 
-              <li><b>Hongkai Yin</b> - Revisiting the fluted and forward fragments with guards</li>
-            </ul>
-					  <!--<h4>Some Day</h4>
+                    <li><b>Hongkai Yin</b> - Revisiting the fluted and forward fragments with guards</li>
+                </ul>
+                <!--<h4>Some Day</h4>
 					  	<table>
 			    			<tr><td style="width:20%;">3:45-12:34</td><td><b>Welcome</b></td></tr>
 			    		</table>
@@ -216,123 +237,200 @@
 					  	<table>
 			    			<tr><td style="width:20%;">13:37-22:22</td><td><b>Goodbye</b></td></tr>
               </table>-->
-            <h3><u>Accepted Short Papers</u></h3>
-            <ul>
-              <li><b>Aleksi Anttila, Juha Kontinen and Fan Yang</b> - Complexity Results in Team Semantics: Nonemptiness Is Not So Complex</li>
+                <h3><u>Accepted Short Papers</u></h3>
+                <ul>
+                    <li><b>Aleksi Anttila, Juha Kontinen and Fan Yang</b> - Complexity Results in Team Semantics:
+                        Nonemptiness Is Not So Complex</li>
 
-              <li><b>Fausto Barbero</b> - Two strong undefinability results</li>
+                    <li><b>Fausto Barbero</b> - Two strong undefinability results</li>
 
-              <li><b>Moritz Bayerkuhnlein, Özgür Lütfü Özcep and Diedrich Wolter</b> - Abductive Expansion for Belief Bases</li>
+                    <li><b>Moritz Bayerkuhnlein, Özgür Lütfü Özcep and Diedrich Wolter</b> - Abductive Expansion for
+                        Belief Bases</li>
 
-              <li><b>Andreas Krebs and Arne Meier</b> - When Symmetry Yields NP-Hardness: Affine ML-SAT on S5 Frames</li>
+                    <li><b>Andreas Krebs and Arne Meier</b> - When Symmetry Yields NP-Hardness: Affine ML-SAT on S5
+                        Frames</li>
 
-              <li><b>Sebastian Rudolph and Kai Sauerwald</b> - Mutual Irreducibility of Revision and Multiple Revision</li>
-            </ul>
-            <h3><u>Accepted Poster Papers</u></h3>
-            <ul>
-              <li><b>Andreas Brännström, Esteban Guerrero, Maria Wojtowicz, Jonna Hasselaar, Staffan Jacobson, Urban Wiklund and Juan Carlos Nieves</b> - Towards Neuro-Symbolic Classification of Abrasive Wear in Scanning Electron Microscopy</li>
+                    <li><b>Sebastian Rudolph and Kai Sauerwald</b> - Mutual Irreducibility of Revision and Multiple
+                        Revision</li>
+                </ul>
+                <h3><u>Accepted Poster Papers</u></h3>
+                <ul>
+                    <li><b>Andreas Brännström, Esteban Guerrero, Maria Wojtowicz, Jonna Hasselaar, Staffan Jacobson,
+                            Urban Wiklund and Juan Carlos Nieves</b> - Towards Neuro-Symbolic Classification of Abrasive
+                        Wear in Scanning Electron Microscopy</li>
 
-              <li><b>Mattias Brännström, Themis Dimitra Xanthopoulou and Andreas Brännström</b> - Intermediate Knowledge Problem</li>
+                    <li><b>Mattias Brännström, Themis Dimitra Xanthopoulou and Andreas Brännström</b> - Intermediate
+                        Knowledge Problem</li>
 
-              <li><b>Matilda Häggblom</b> - Axiomatizing variants of approximate inclusion</li>
+                    <li><b>Matilda Häggblom</b> - Axiomatizing variants of approximate inclusion</li>
 
-              <li><b>Yudai Kubono</b> - On Translating Epistemic Operators in a Logic of Awareness</li>
+                    <li><b>Yudai Kubono</b> - On Translating Epistemic Operators in a Logic of Awareness</li>
 
-              <li><b>Zhengyang Lu, Paul Sarnighausen-Cahn, Jiahao Chen, Arie Gurfinkel, Florin Manea and Vijay Ganesh</b> - SMT Algorithm Selection with High-Level Natural-Language Descriptions</li>
+                    <li><b>Zhengyang Lu, Paul Sarnighausen-Cahn, Jiahao Chen, Arie Gurfinkel, Florin Manea and Vijay
+                            Ganesh</b> - SMT Algorithm Selection with High-Level Natural-Language Descriptions</li>
 
-              <li><b>Jakob Suchan, Salim Baloch and Mehul Bhatt</b> - Towards a VLM-based Foundation for Generalised Neurosymbolic Visual Commonsense</li>
+                    <li><b>Jakob Suchan, Salim Baloch and Mehul Bhatt</b> - Towards a VLM-based Foundation for
+                        Generalised Neurosymbolic Visual Commonsense</li>
 
-              <li><b>Diedrich Wolter and Tobias Schwartz</b> - Planning and Temporal Planning by Qualitative Temporal Reasoning</li>
-            </ul>
-          </div>
-          <div class="research-col col-md-5"> 
-		  			<h3><u>Invited Speakers</u></h3>
+                    <li><b>Diedrich Wolter and Tobias Schwartz</b> - Planning and Temporal Planning by Qualitative
+                        Temporal Reasoning</li>
+                </ul>
+            </div>
+            <div class="research-col col-md-5">
+                <h3><u>Invited Speakers</u></h3>
 
-            <div>
-              <figure class="figure">
-                <img class="figure-img img-fluid mx-auto d-block" src="images/GiuseppeDeGiacomoViso.jpeg" alt="Giuseppe De Giacomo, University of Oxford" width=50%></li>
-                <figcaption class="figure-caption text-center">Giuseppe De Giacomo, University of Oxford</figcaption>
-              </figure>
-              <button class="collapsible">Talk: Reactive Program Synthesis in AI (EurAI Talk)</button>
-              <div class="talkContent">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-          Abstract: <br>
-          <br>
-          <p>Reactive (Program) Synthesis is an area of Formal Methods that studies how to automatically synthesize interactive programs (reactive systems) from a human-readable specification, typically expressed in temporal logic. In this talk, we will discuss its use in Autonomous AI Systems to equip them with strategic reasoning capabilities, as well as frame such capabilities within formally specified bounds that provide guardrails for their self-deliberated behavior. We will show that Reactive Synthesis is related to certain forms of AI Planning in partially controllable environments and to MDP solving. Technically, we will focus on specifications expressed in Linear Temporal Logic (LTL) and, in particular, its finite-trace variants such as LTL<sub>f</sub>. A key advantage of these finite-trace variants is their simplicity, due to their reducibility to equivalent regular automata, which can be easily determinized and transformed into two-player games on graphs. This simplicity leads to an unprecedented computational effectiveness and scalability of synthesis in LTL<sub>f</sub> compared to LTL. Finally, we will also show how to lift this finite-trace "technology" to infinite traces by leveraging Manna and Pnueli’s safety-progress hierarchy for temporal properties, which is ultimately based on a finite-trace core.</p>
-              </div>
-              <button class="collapsible2">Bio</button>
-              <div class="talkContent2">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-                <p>
-                  Giuseppe De Giacomo is a Professor of Computer Science in the Department of Computer Science at the University of Oxford. He has previously been a Professor at the Department of Computer, Control, and Management Engineering of the University of Rome "La Sapienza". His research spans theoretical, methodological, and practical aspects of Artificial Intelligence and Computer Science, with major contributions in Knowledge Representation, Reasoning about Actions, Generalized Planning, Autonomous Agents, Reactive Synthesis and Verification, Service Composition, Business Process Modeling, and Data Management and Integration.
-                </p>
-                <p>
-                  He is a Fellow of AAAI, ACM, and EurAI. He received an ERC Advanced Grant for the project WhiteMech: White-box Self Programming Mechanisms. He has served as Program Chair of ECAI 2020 and KR 2014. He is a member of the Board of EurAI and chairs the steering committee of EurAI’s annual summer school ESSAI.
-                </p>
-                <!--
+                <div>
+                    <figure class="figure">
+                        <img class="figure-img img-fluid mx-auto d-block" src="images/GiuseppeDeGiacomoViso.jpeg"
+                            alt="Giuseppe De Giacomo, University of Oxford" width=50%></li>
+                        <figcaption class="figure-caption text-center">Giuseppe De Giacomo, University of Oxford
+                        </figcaption>
+                    </figure>
+                    <button class="collapsible">Talk: Reactive Program Synthesis in AI (EurAI Talk)</button>
+                    <div class="talkContent">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        Abstract: <br>
+                        <br>
+                        <p>Reactive (Program) Synthesis is an area of Formal Methods that studies how to automatically
+                            synthesize interactive programs (reactive systems) from a human-readable specification,
+                            typically expressed in temporal logic. In this talk, we will discuss its use in Autonomous
+                            AI Systems to equip them with strategic reasoning capabilities, as well as frame such
+                            capabilities within formally specified bounds that provide guardrails for their
+                            self-deliberated behavior. We will show that Reactive Synthesis is related to certain forms
+                            of AI Planning in partially controllable environments and to MDP solving. Technically, we
+                            will focus on specifications expressed in Linear Temporal Logic (LTL) and, in particular,
+                            its finite-trace variants such as LTL<sub>f</sub>. A key advantage of these finite-trace
+                            variants is their simplicity, due to their reducibility to equivalent regular automata,
+                            which can be easily determinized and transformed into two-player games on graphs. This
+                            simplicity leads to an unprecedented computational effectiveness and scalability of
+                            synthesis in LTL<sub>f</sub> compared to LTL. Finally, we will also show how to lift this
+                            finite-trace "technology" to infinite traces by leveraging Manna and Pnueli’s
+                            safety-progress hierarchy for temporal properties, which is ultimately based on a
+                            finite-trace core.</p>
+                    </div>
+                    <button class="collapsible2">Bio</button>
+                    <div class="talkContent2">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        <p>
+                            Giuseppe De Giacomo is a Professor of Computer Science in the Department of Computer Science
+                            at the University of Oxford. He has previously been a Professor at the Department of
+                            Computer, Control, and Management Engineering of the University of Rome "La Sapienza". His
+                            research spans theoretical, methodological, and practical aspects of Artificial Intelligence
+                            and Computer Science, with major contributions in Knowledge Representation, Reasoning about
+                            Actions, Generalized Planning, Autonomous Agents, Reactive Synthesis and Verification,
+                            Service Composition, Business Process Modeling, and Data Management and Integration.
+                        </p>
+                        <p>
+                            He is a Fellow of AAAI, ACM, and EurAI. He received an ERC Advanced Grant for the project
+                            WhiteMech: White-box Self Programming Mechanisms. He has served as Program Chair of ECAI
+                            2020 and KR 2014. He is a member of the Board of EurAI and chairs the steering committee of
+                            EurAI’s annual summer school ESSAI.
+                        </p>
+                        <!--
                 <p>Giuseppe De Giacomo is a Professor of Computer Science at the Department of Computer Science of the University of Oxford. He was previously a Professor at the Department of Computer, Control and Management Engineering of the University of Roma "La Sapienza". His research activity concerns theoretical, methodological, and practical aspects in different areas of AI and CS, most prominently Knowledge Representation, Reasoning about Actions, Generalized Planning, Autonomous Agents, Reactive Synthesis and Verification, Service Composition, Business Process Modeling, and Data Management and Integration. </p>
                 <p>He is an AAAI Fellow, ACM Fellow, and EurAI Fellow. He received an ERC Advanced Grant for the project WhiteMech: White-box Self Programming Mechanisms. He was the Program Chair of ECAI 2020 and KR 2014. He is on the Board of EurAI.</p>
               -->
-              </div>
-              <hr>
-            </div>
+                    </div>
+                    <hr>
+                </div>
 
-            <div>
-              <figure class="figure">
-                <img class="figure-img img-fluid mx-auto d-block" src="images/floris.jpeg" alt="Floris Geerts, University of Antwerp" width=50%></li>
-                <figcaption class="figure-caption text-center">Floris Geerts, University of Antwerp</figcaption>
-              </figure>
-              <button class="collapsible">Talk: Relational Neural Networks</button>
-              <div class="talkContent">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-          Abstract: <br>
-          <br>
-          <p>Relational data capture rich, structured dependencies that traditional learning methods struggle to exploit. Relational neural networks aim to model such data by integrating the relational reasoning principles underlying graph neural networks and graph transformers. This talk explores the theoretical foundations of these models and how their learning behaviour interacts with data heterogeneity, temporal dynamics, and schema structure. We question how to characterise what relational architectures can represent and how they learn. Finally, we outline prospects for principled foundation models that unify representation, reasoning, and transfer across diverse relational domains.</p>
-              </div>
-              <button class="collapsible2">Bio</button>
-              <div class="talkContent2">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-                <p>
-                    Floris Geerts is professor at the University of Antwerp, Belgium. Previously, he was a senior research fellow at the University of Edinburgh and a postdoctoral researcher at the University of Helsinki. He received his PhD in 2001 from the University of Hasselt, Belgium. His research interests include the theory and practice of databases, the study of data quality, the interaction between linear algebra, relational databases and graph neural networks. He has written a book on data quality and published over 130 technical papers. 
-                </p>
-                <p>
-                    His awards include three best paper awards, the PODS Alberto O. Mendelzon Test-of-Time award, an ACM SIGMOD Research Highlight Award and an ICLR outstanding paper award. He is an ACM Distinguished Member, was program chair of PODS and ICDT, the general chair of EDBT/ICDT and is currently the general chair of PODS. He served on the editorial boards of ACM TODS and IEEE TKDE, and was editor of various proceedings and special journal issues in the area of databases.
-                </p>
-                <!--
+                <div>
+                    <figure class="figure">
+                        <img class="figure-img img-fluid mx-auto d-block" src="images/floris.jpeg"
+                            alt="Floris Geerts, University of Antwerp" width=50%></li>
+                        <figcaption class="figure-caption text-center">Floris Geerts, University of Antwerp</figcaption>
+                    </figure>
+                    <button class="collapsible">Talk: Relational Neural Networks</button>
+                    <div class="talkContent">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        Abstract: <br>
+                        <br>
+                        <p>Relational data capture rich, structured dependencies that traditional learning methods
+                            struggle to exploit. Relational neural networks aim to model such data by integrating the
+                            relational reasoning principles underlying graph neural networks and graph transformers.
+                            This talk explores the theoretical foundations of these models and how their learning
+                            behaviour interacts with data heterogeneity, temporal dynamics, and schema structure. We
+                            question how to characterise what relational architectures can represent and how they learn.
+                            Finally, we outline prospects for principled foundation models that unify representation,
+                            reasoning, and transfer across diverse relational domains.</p>
+                    </div>
+                    <button class="collapsible2">Bio</button>
+                    <div class="talkContent2">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        <p>
+                            Floris Geerts is professor at the University of Antwerp, Belgium. Previously, he was a
+                            senior research fellow at the University of Edinburgh and a postdoctoral researcher at the
+                            University of Helsinki. He received his PhD in 2001 from the University of Hasselt, Belgium.
+                            His research interests include the theory and practice of databases, the study of data
+                            quality, the interaction between linear algebra, relational databases and graph neural
+                            networks. He has written a book on data quality and published over 130 technical papers.
+                        </p>
+                        <p>
+                            His awards include three best paper awards, the PODS Alberto O. Mendelzon Test-of-Time
+                            award, an ACM SIGMOD Research Highlight Award and an ICLR outstanding paper award. He is an
+                            ACM Distinguished Member, was program chair of PODS and ICDT, the general chair of EDBT/ICDT
+                            and is currently the general chair of PODS. He served on the editorial boards of ACM TODS
+                            and IEEE TKDE, and was editor of various proceedings and special journal issues in the area
+                            of databases.
+                        </p>
+                        <!--
                     <p>Floris Geerts is a professor at the University of Antwerp, Belgium. Previously, he was a senior research fellow at the University of Edinburgh and a postdoctoral researcher at the University of Helsinki. He earned his PhD in 2001 from the University of Hasselt, Belgium. His research focuses on database theory and practice, data quality, and, more recently, the intersection of linear algebra, relational databases, and graph neural networks. He has authored a book on data quality and published over 130 technical papers.</p>
                     <p>He has received several prestigious awards, including three Best Paper Awards, the PODS Alberto O. Mendelzon Test-of-Time Award, an ACM SIGMOD Research Highlight Award, and an ICLR Outstanding Paper Award. An ACM Distinguished Member, he has held key leadership roles, serving as program chair for PODS and ICDT, general chair for EDBT/ICDT, and currently, general chair of PODS. He has also contributed extensively as an editor, serving on the editorial boards of ACM TODS and IEEE TKDE, and overseeing various conference proceedings and special journal issues in the database field.</p>
                 -->
+                    </div>
+                    <hr>
                 </div>
-              <hr>
-            </div>
 
-            <div>
-              <figure class="figure">
-                <img class="figure-img img-fluid mx-auto d-block" src="images/Auswahl_0806 Ausschnitt.jpg" alt="Wolfgang Nejdl, Leibniz Universität Hannover" width=50%></li>
-                <figcaption class="figure-caption text-center">Wolfgang Nejdl, Leibniz Universität Hannover</figcaption>
-              </figure>
-              <button class="collapsible">Talk: Reasoning for LLM-based agents</button>
-              <div class="talkContent">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-                Abstract: <br>
-                <br>
-                <p>
-                  Reasoning is fundamental to the foundations of information and knowledge systems, enabling these systems to derive reliable conclusions from complex data. Research in FoIKS focuses on the development of logical, non-monotonic, and probabilistic reasoning methods for addressing uncertainty and incomplete information—capabilities that are essential for intelligent agents and robust knowledge-based systems. Effective reasoning empowers information systems to adapt, update, and validate knowledge as new data becomes available.
-                </p>
-                <p>
-                  For LLM-based agents, reasoning is indispensable, as it facilitates planning, decision-making, problem-solving, and adaptation to dynamic environments in a manner that is both human-like and interpretable. Robust reasoning enables these agents to operate autonomously, tackle complex tasks through reﬂection, and provide justiﬁcations for their actions. These abilities are critical for tasks that require multi-step logic, effective tool use, and proﬁcient interaction with humans or other agents.
-                </p>
-                <p>
-                  This talk will examine whether these two perspectives on reasoning share common ground, highlighting recent research in LLM-related reasoning and discussing realistic expectations for future developments.
-                </p>
-              </div>
-              <button class="collapsible2">Bio</button>
-              <div class="talkContent2">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-                <p>
-                  Professor Dr. Wolfgang Nejdl has been a computer science professor at Leibniz Universität Hannover since 1995, following roles at RWTH Aachen University and Vienna University of Technology. He has held visiting positions at leading institutions including Xerox PARC, Stanford, and EPFL Lausanne. Professor Nejdl directs the L3S Research Center and Data Science Institute at Leibniz Universität, with research spanning information retrieval, AI, the web, digital libraries, and tech-enhanced learning. He led the ERC Advanced Grant ALEXANDRIA and is involved in projects such as NoBIAS, Cleopatra, KnowGraphs, SoBigData++, and DAISEC, focusing on AI and cybersecurity. Active in the Leibniz AI Academy and Digital Education Initiative, he currently leads the Center for Artiﬁcial Intelligence and Causal Methods in Medicine. He has published over 470 scientiﬁc papers and holds an h-index of 80.
-                </p>
-                <!--
+                <div>
+                    <figure class="figure">
+                        <img class="figure-img img-fluid mx-auto d-block" src="images/Auswahl_0806 Ausschnitt.jpg"
+                            alt="Wolfgang Nejdl, Leibniz Universität Hannover" width=50%></li>
+                        <figcaption class="figure-caption text-center">Wolfgang Nejdl, Leibniz Universität Hannover
+                        </figcaption>
+                    </figure>
+                    <button class="collapsible">Talk: Reasoning for LLM-based agents</button>
+                    <div class="talkContent">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        Abstract: <br>
+                        <br>
+                        <p>
+                            Reasoning is fundamental to the foundations of information and knowledge systems, enabling
+                            these systems to derive reliable conclusions from complex data. Research in FoIKS focuses on
+                            the development of logical, non-monotonic, and probabilistic reasoning methods for
+                            addressing uncertainty and incomplete information—capabilities that are essential for
+                            intelligent agents and robust knowledge-based systems. Effective reasoning empowers
+                            information systems to adapt, update, and validate knowledge as new data becomes available.
+                        </p>
+                        <p>
+                            For LLM-based agents, reasoning is indispensable, as it facilitates planning,
+                            decision-making, problem-solving, and adaptation to dynamic environments in a manner that is
+                            both human-like and interpretable. Robust reasoning enables these agents to operate
+                            autonomously, tackle complex tasks through reﬂection, and provide justiﬁcations for their
+                            actions. These abilities are critical for tasks that require multi-step logic, effective
+                            tool use, and proﬁcient interaction with humans or other agents.
+                        </p>
+                        <p>
+                            This talk will examine whether these two perspectives on reasoning share common ground,
+                            highlighting recent research in LLM-related reasoning and discussing realistic expectations
+                            for future developments.
+                        </p>
+                    </div>
+                    <button class="collapsible2">Bio</button>
+                    <div class="talkContent2">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        <p>
+                            Professor Dr. Wolfgang Nejdl has been a computer science professor at Leibniz Universität
+                            Hannover since 1995, following roles at RWTH Aachen University and Vienna University of
+                            Technology. He has held visiting positions at leading institutions including Xerox PARC,
+                            Stanford, and EPFL Lausanne. Professor Nejdl directs the L3S Research Center and Data
+                            Science Institute at Leibniz Universität, with research spanning information retrieval, AI,
+                            the web, digital libraries, and tech-enhanced learning. He led the ERC Advanced Grant
+                            ALEXANDRIA and is involved in projects such as NoBIAS, Cleopatra, KnowGraphs, SoBigData++,
+                            and DAISEC, focusing on AI and cybersecurity. Active in the Leibniz AI Academy and Digital
+                            Education Initiative, he currently leads the Center for Artiﬁcial Intelligence and Causal
+                            Methods in Medicine. He has published over 470 scientiﬁc papers and holds an h-index of 80.
+                        </p>
+                        <!--
                 <p>
                   Prof. Dr. Wolfgang Nejdl has held the position of full professor of computer science at Leibniz Universität Hannover since 1995. Prior to this, he was associate professor at RWTH Aachen University from 1992 to 1995, and he completed his studies in Computer Science at the Vienna University of Technology. He has also worked as a visiting researcher and professor at institutions such as Xerox PARC, Stanford University, the University of Illinois at Urbana-Champaign, EPFL Lausanne, PUC Rio, Università di Trento, Politecnico di Milano, Sapienza Università di Roma, and Università di Pavia.
                 </p>
@@ -346,49 +444,68 @@
                   Prof. Nejdl has authored over 460 scientific papers as recorded in DBLP and has an h-index of 79 according to Google Scholar.
                 </p>
                 -->
-              </div>
-              <hr>
-            </div>
+                    </div>
+                    <hr>
+                </div>
 
-            <div>
-              <div align="center">
-                <figure class="figure">
-                  <img class="figure-img img-fluid mx-auto d-block" src="images/Ana.png" alt="Ana Ozaki, University of Oslo" width=50%></li>
-                  <figcaption class="figure-caption text-center">Ana Ozaki, University of Oslo</figcaption>
-                </figure>
-              </div>
-              <button class="collapsible">Talk: Semiring Provenance for Ontology-Based Data Access</button>
-              <div class="talkContent">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-          Abstract: <br>
-          <br>
-          <p>
-            Ontology-based data access (OBDA) is a popular paradigm for data integration. In this paradigm, multiple data sources are integrated through mappings to an ontology. These data sources can be heterogeneous (databases, language models, knowledge graph embedding models, etc) and the information retrieved from them may have different levels of trust. So, when answering queries, one may well be interested in not only obtaining the answers but also knowing why/how these answers were obtained. Provenance here refers to the origin of a query result, in particular, which tuples in a database or which data sources were relevant for answering a query. This corresponds to a notion of explanation explored in the context of databases using commutative semirings. In this talk, I will present work on semiring provenance in the context of ontology-based data access. The focus will be on ontologies expressed in DL-Lite and solutions to determine the provenance of a query within the OBDA setting.
-          </p>
-              </div>
-              <button class="collapsible2">Bio</button>
-              <div class="talkContent2">
-                <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
-                <p>
-                  Ana Ozaki works as an associate professor at the University of Oslo. Her research focuses on knowledge representation and machine learning theory. She is particularly interested in algorithms for learning logical theories formulated in description logic and related formalisms for knowledge representation. 
-                </p>
-                <p>
-                  Ozaki has recently worked as Program Committee Chair for the 
-                  <a href="https://2023.declarativeai.net/events/ruleml-rr/ruleml-rr-organization" target="_blank">7th International Joint Conference on Rules and Reasoning</a>
-                   and the 
-                  <a href="https://dl2023.w.uib.no/organization/" target="_blank">36th International Description Logic Workshop</a>. Ozaki works as the principal investigator of the project 
-                  <a href="https://prosjektbanken.forskningsradet.no/en/project/FORISS/316022?Kilde=FORISS&distribution=Ar&chart=bar&calcType=funding&Sprak=no&sortBy=score&sortOrder=desc&resultCount=30&offset=0&Fritekst=learning+description+logic+ontologies" target="_blank">Learning Description Logic Ontologies</a>,
-                  funded by the Research Council of Norway. She is one of the principal investigators of the 
-                  <a href="https://www.integreat.no/" target="_blank">Norwegian Centre for Knowledge-driven Machine Learning</a>.
-                </p>
-              </div>
-              <hr>
-            </div>
+                <div>
+                    <div align="center">
+                        <figure class="figure">
+                            <img class="figure-img img-fluid mx-auto d-block" src="images/Ana.png"
+                                alt="Ana Ozaki, University of Oslo" width=50%></li>
+                            <figcaption class="figure-caption text-center">Ana Ozaki, University of Oslo</figcaption>
+                        </figure>
+                    </div>
+                    <button class="collapsible">Talk: Semiring Provenance for Ontology-Based Data Access</button>
+                    <div class="talkContent">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        Abstract: <br>
+                        <br>
+                        <p>
+                            Ontology-based data access (OBDA) is a popular paradigm for data integration. In this
+                            paradigm, multiple data sources are integrated through mappings to an ontology. These data
+                            sources can be heterogeneous (databases, language models, knowledge graph embedding models,
+                            etc) and the information retrieved from them may have different levels of trust. So, when
+                            answering queries, one may well be interested in not only obtaining the answers but also
+                            knowing why/how these answers were obtained. Provenance here refers to the origin of a query
+                            result, in particular, which tuples in a database or which data sources were relevant for
+                            answering a query. This corresponds to a notion of explanation explored in the context of
+                            databases using commutative semirings. In this talk, I will present work on semiring
+                            provenance in the context of ontology-based data access. The focus will be on ontologies
+                            expressed in DL-Lite and solutions to determine the provenance of a query within the OBDA
+                            setting.
+                        </p>
+                    </div>
+                    <button class="collapsible2">Bio</button>
+                    <div class="talkContent2">
+                        <p style="padding:10px 0px 10px 0px; margin:0px;"></p>
+                        <p>
+                            Ana Ozaki works as an associate professor at the University of Oslo. Her research focuses on
+                            knowledge representation and machine learning theory. She is particularly interested in
+                            algorithms for learning logical theories formulated in description logic and related
+                            formalisms for knowledge representation.
+                        </p>
+                        <p>
+                            Ozaki has recently worked as Program Committee Chair for the
+                            <a href="https://2023.declarativeai.net/events/ruleml-rr/ruleml-rr-organization"
+                                target="_blank">7th International Joint Conference on Rules and Reasoning</a>
+                            and the
+                            <a href="https://dl2023.w.uib.no/organization/" target="_blank">36th International
+                                Description Logic Workshop</a>. Ozaki works as the principal investigator of the project
+                            <a href="https://prosjektbanken.forskningsradet.no/en/project/FORISS/316022?Kilde=FORISS&distribution=Ar&chart=bar&calcType=funding&Sprak=no&sortBy=score&sortOrder=desc&resultCount=30&offset=0&Fritekst=learning+description+logic+ontologies"
+                                target="_blank">Learning Description Logic Ontologies</a>,
+                            funded by the Research Council of Norway. She is one of the principal investigators of the
+                            <a href="https://www.integreat.no/" target="_blank">Norwegian Centre for Knowledge-driven
+                                Machine Learning</a>.
+                        </p>
+                    </div>
+                    <hr>
+                </div>
 
 
-              <!--<hr>-->
+                <!--<hr>-->
             </div>
-              <!--<li><span class="justify">
+            <!--<li><span class="justify">
                 Georg Gottlob, University of Oxford
               </span></li>
               <li><span class="justify">
@@ -402,21 +519,24 @@
               <li><span class="justify">
                 Uli Sattler, University of Manchester
                 </span></li>-->
-          </div>
         </div>
+    </div>
 
-      <div style="height:100px"></div>
-	<footer class="fixed-bottom bg-dark text-white text-center text-lg-start">
-	  <div class="text-center p-3">
-		  <h5>Contact us at <a href="mailto:foiks26-thi@listserv.uni-hannover.de" style="color:#acacac">foiks26-thi@listserv.uni-hannover.de</a>!</h5>
-	  </div>
-	</footer>
+    <div style="height:100px"></div>
+    <footer class="fixed-bottom bg-dark text-white text-center text-lg-start">
+        <div class="text-center p-3">
+            <h5>Contact us at <a href="mailto:foiks26-thi@listserv.uni-hannover.de"
+                    style="color:#acacac">foiks26-thi@listserv.uni-hannover.de</a>!</h5>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -424,40 +544,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
 
-	<script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
 
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-	    this.classList.toggle("active");
-	    var content = this.nextElementSibling;
-	    if (content.style.maxHeight){
-	      content.style.maxHeight = null;
-	    } else {
-	      content.style.maxHeight = content.scrollHeight + "px";
-	    } 
-	  });
-	}
-	</script>
-	<script>
-	var coll2 = document.getElementsByClassName("collapsible2");
-	var i2;
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <script>
+        var coll2 = document.getElementsByClassName("collapsible2");
+        var i2;
 
-	for (i2 = 0; i2 < coll2.length; i2++) {
-	  coll2[i2].addEventListener("click", function() {
-	    this.classList.toggle("active");
-	    var content = this.nextElementSibling;
-	    if (content.style.maxHeight){
-	      content.style.maxHeight = null;
-	    } else {
-	      content.style.maxHeight = content.scrollHeight + "px";
-	    } 
-	  });
-	}
-	</script>
+        for (i2 = 0; i2 < coll2.length; i2++) {
+            coll2[i2].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 
 
 
-  </body>
+</body>
+
 </html>
